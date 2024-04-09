@@ -45,7 +45,7 @@ def translate_name(name: str):
     return name_rus
 
 
-def gen(p: dict, n: dict):
+def get_data(p: dict, n: dict):
     for i in range(len(p)):
         time.sleep(3)
         pgn = p[i + 1]['PGN']
